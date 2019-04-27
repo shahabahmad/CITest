@@ -8,6 +8,8 @@
 
 import XCTest
 
+// https://discuss.circleci.com/t/unable-to-run-ui-tests-because-xcode-helper-does-not-have-permission-to-use-accessibility/25008
+
 class TestCIAppUITests: XCTestCase {
 
     override func setUp() {
